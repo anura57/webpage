@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 500px;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo span {
+    color: #ffc107;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .icons {
+    position: relative;
+  }
+  
+  .menu-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-items li {
+    padding: 10px;
+  }
+  
+  .menu-items li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Product List Styles */
+  .product-list {
+    margin-top:20px;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .product-header {
+    display: flex;
+    grid-template-columns: repeat(14, 1fr);
+    background-color: #333;
+    color: #fff;
+    flex-direction: column;
+    justify-content: flex-start; 
+    font-size: 14px; 
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bold;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  .product-column {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+    justify-content: flex-start; 
+    margin-right: 20px; 
+  }
+  
+  .product-item .product-column {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    flex: 1;
+}
+
+.product-item .product-column:first-child {
+    border-top: none; 
+}
+
+.product-item .actions {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    flex: 1; 
+}
+
+  
+  .edit-btn {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

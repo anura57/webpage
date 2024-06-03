@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIKTIK</title>
+    <!-- Code for font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Code for font awesome cdn -->
+    <link rel="stylesheet" href="header.css">
+    <!-- Code for linking css file -->
+
+    <!-- code for boxicons  -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- code for boxicons  -->
+
+    <!-- CSS for the View Products page -->
+    <link rel="stylesheet" href="viewProduct.css">
+    <!-- CSS for the View Products page -->
+</head>
+<body>
+    <!-- Header Section Starts -->
+    <header class="header">
+        <a href="adminHome.html" class="logo">TIK<span>TIK.</span></a>
+        <nav class="navbar">
+            <a href="adminHome.html" class="nav-item ">HOME</a>
+            <a href="admin.html" class="nav-item ">ADD PRODUCT</a>
+            <a href="viewProduct.html" class="nav-item">VIEW PRODUCT</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-user" id="user-btn" onclick="menuToggle();"></div>
+            <!-- Sub Menu for the user icon -->
+            <ul class="menu-items">
+                <li><img src="" alt=""><a href="profile.html">View Profile</a></li>
+                <li><img src="" alt=""><a href="#">Edit Profile</a></li>
+                <li><img src="" alt=""><a href="#">Log Out</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Header Section Ends -->
+  <h1>Product Listing</h1>
+  <table>
+    <thead>
+      <tr>'
+        <th>Product ID</th>
+        <th>Product Image</th>
+        <th>Product name</th>
+        <th>Brand</th>
+        <th>Model</th>
+        <th>Product Price</th>
+        <th>Product Category</th>
+        <th>Product Size</th>
+        <th>Product Colour</th>
+        <th>Dial Shape</th>
+        <th>Compatible OS</th>
+        <th>Interchanging Strap</th>
+        <th>Quantity</th>
+        <th>Product Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>123456</td>
+        <td><img src="watch.jpg" alt="Product 1"></td>
+        <td>Apple</td>
+        <td>Brand A</td>
+        <td>Model X</td>
+        <td>$99.99</td>
+        <td>Female</td>
+        <td>42mm</td>
+        <td>black</td>
+        <td>rectangle</td>
+        <td>yes</td>
+        <td>yes</td>
+        <td>7</td>
+        <td>This is a mockup of the Apple Watch.</td>
+        <td>
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn">Delete</button>
+        </td>
+      </tr>
+      <tr>
+            <td>123456</td>
+            <td><img src="watch.jpg" alt="Product 1"></td>
+            <td>Apple</td>
+            <td>Brand A</td>
+            <td>Model X</td>
+            <td>$99.99</td>
+            <td>Female</td>
+            <td>42mm</td>
+            <td>black</td>
+            <td>rectangle</td>
+            <td>yes</td>
+            <td>yes</td>
+            <td>7</td>
+            <td>This is a mockup of the Apple Watch.</td>
+            <td>
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>123456</td>
+            <td><img src="watch.jpg" alt="Product 1"></td>
+            <td>Apple</td>
+            <td>Brand A</td>
+            <td>Model X</td>
+            <td>$99.99</td>
+            <td>Female</td>
+            <td>42mm</td>
+            <td>black</td>
+            <td>rectangle</td>
+            <td>yes</td>
+            <td>yes</td>
+            <td>7</td>
+            <td>This is a mockup of the Apple Watch.</td>
+            <td>
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </td>
+          </tr>
+    </tbody>
+  </table>
+</body>
+</html>

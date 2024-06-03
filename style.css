@@ -1,0 +1,163 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    height: 100%;
+    
+}
+
+/* Header and navigation */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* Add Product section */
+.add-product {
+    margin: 155px auto; /* Center the container horizontally */
+    padding: 50px;
+    background-color: #b0adad;
+    border-radius: 15px;
+    max-width: 700px; /* Set maximum width to make it smaller */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.add-product h2 {
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.add-product input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 15px; 
+}
+.add-product .upload-btn {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-product .add-btn {
+    display: block; /* Change button to block element */
+    margin: 0 auto; /* Center the button horizontally */
+    background-color: #ffc107;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+.product-list {
+    margin: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%; /* Added width */
+    max-width: 1000px; /* Added max-width */
+    margin: 0 auto; /* Centers the container */
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 15px; /* Increased padding */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-column {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; /* Increased font size */
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    padding: 15px; /* Increased padding */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-item .product-column {
+    flex: 1;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100px; /* Increased image size */
+    height: 100px;
+    object-fit: cover;
+}
+
+.product-details h3 {
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 5px;
+}
+
+.product-details p {
+    font-size: 16px; /* Increased font size */
+    margin-bottom: 5px;
+}
+
+.actions button {
+    background-color: #ffc107;
+    color: #333;
+    padding: 8px 12px; /* Increased button padding */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 5px;
+    font-size: 14px; /* Increased font size */
+}
+
+.actions .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 20px;
+    flex-grow: 1;
+}
